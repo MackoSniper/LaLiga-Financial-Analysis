@@ -43,7 +43,7 @@ print()
 
 # ── 3. KORELACJA SPEARMANA: EFEKTYWNOŚĆ vs PUNKTY ────────────────────────────
 
-rho, p_value = stats.spearmanr(df["Efektywnosc"], df["Punkty"])
+rho, p_value = stats.spearmanr(df["Efektywnosc"], df["Pozycja"])
 print("=== KORELACJA SPEARMANA: EFEKTYWNOŚĆ vs PUNKTY ===")
 print(f"rho = {rho:.3f}")
 print(f"p-value = {p_value:.5f}")
