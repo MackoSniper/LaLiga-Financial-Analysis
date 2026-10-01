@@ -1,0 +1,5 @@
+pandas
+numpy
+scipy
+matplotlib
+pytest  # optional, only needed to run the tests with pytest
